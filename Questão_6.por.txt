@@ -1,0 +1,27 @@
+programa
+{
+	funcao inicio (){
+		inteiro vetor[8], i, j, menor
+		
+		para(i=0;i<8;i++){
+	  	escreva("Insira ", 8-i, " números inteiros na lista: ")
+	  	leia(vetor[i])
+	  	limpa()
+	  }
+	  
+	  escreva("Lista em ordem direta:\n", vetor)
+	  
+	  para(i=7;i>=0;i--){
+	  	para(j=i-1;j>=0;j--){
+	  		se(vetor[j]>vetor[i]){
+	  			menor=vetor[i]
+	  			vetor[i]=vetor[j]
+	  			vetor[j]=menor
+	  		}
+	  	}
+	  }
+	  escreva("\n\nLista em ordem crescente:\n", vetor)
+		
+		
+	}
+}

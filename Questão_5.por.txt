@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio (){
+		inteiro vetor[10], i
+		
+		para(i=0;i<10;i++){
+	  	escreva("Insira ", 10-i, " números inteiros na lista: ")
+	  	leia(vetor[i])
+	  	limpa()
+	  }
+	  
+	  escreva("Lista na ordem direta: \n", vetor)
+	  
+	  escreva("\n\nLista na ordem inversa: \n")
+	  
+	  para(i=9;i>=0;i--){
+	  	escreva(vetor[i], " ")
+	  }
+		
+		
+	}
+}

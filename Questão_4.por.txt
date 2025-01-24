@@ -1,0 +1,24 @@
+programa
+{
+	funcao inicio (){
+		inteiro vetor[15], i
+		
+		para(i=0;i<15;i++){
+	  	escreva("Insira ", 15-i, " números inteiros na lista: ")
+	  	leia(vetor[i])
+	  	limpa()
+	  }
+	  
+	  escreva("Lista completa: \n", vetor)
+	  
+	  escreva("\n\nLista com números pares: \n")
+	  
+	  para(i=0;i<15;i++){
+	  	se(vetor[i]%2 ==0){
+	  		escreva(vetor[i], " ")
+	  	}
+	  }
+		
+		
+	}
+}

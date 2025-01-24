@@ -1,0 +1,30 @@
+programa
+{
+	funcao inicio (){
+		inteiro matriz[3][3], i, j, soma
+		
+		soma = 0
+		
+		para(i=0;i<3;i++){
+			para(j=0;j<3;j++){
+				escreva("Digite o elemento da ", i+1, "ª linha e ", j+1, "ª coluna: ")
+				leia(matriz[i][j])
+				limpa()
+				
+				soma += matriz[i][j]
+			}
+		}
+		
+		escreva("Matriz 3x3: \n")
+		para(i=0;i<3;i++){
+			para(j=0;j<3;j++){
+				escreva(matriz[i][j], " ")
+			}
+			
+			escreva("\n")
+		}
+		
+		escreva("\nA soma dos elementos da matriz dá ", soma)
+		
+	}
+}

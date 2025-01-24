@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio (){
+		inteiro vetor[10], i, soma
+		
+		soma = 0
+		para(i=0; i<10; i++){
+			escreva("Digite ", 10-i, " números inteiros na lista: ")
+			leia(vetor[i])
+			limpa()
+			
+			soma += vetor[i]
+		}
+		
+		escreva("Lista: \n", vetor)
+		
+		escreva("\n\nA soma dos elementos da lista dá ", soma)
+		
+		
+		
+	}
+}

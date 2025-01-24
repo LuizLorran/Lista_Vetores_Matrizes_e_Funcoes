@@ -1,0 +1,31 @@
+programa
+{
+	funcao inicio (){
+		inteiro vetor[10], i, num, contador
+		
+		para(i=0;i<10;i++){
+	  	  escreva("Insira ", 10-i, " números inteiros na lista: ")
+	  	  leia(vetor[i])
+	   	  limpa()
+		}
+		
+		escreva("Digite algum número da lista: ")
+		leia(num)
+		
+		contador = 0
+		
+		para(i=0; i<10; i++){
+			se(vetor[i] == num){
+				escreva("\n", num, " está na posição ", i+1," da lista")
+				contador += 1
+			}
+		}
+		
+		se(contador == 0){
+			escreva("\n", num, " não faz parte da lista")
+		}
+		
+		
+		
+	}
+}
